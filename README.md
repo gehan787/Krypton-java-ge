@@ -1,1 +1,1 @@
-# project-krepto-js
+# krptoojs.js

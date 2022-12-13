@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.cryptofonts.com/1.4.0/cryptofont.css">
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/solid.min.css"
+        integrity="sha512-uj2QCZdpo8PSbRGL/g5mXek6HM/APd7k/B5Hx/rkVFPNOxAQMXD+t+bG4Zv8OAdUpydZTU3UHmyjjiHv2Ww0PA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/fontawesome.min.js"
+        integrity="sha512-j3gF1rYV2kvAKJ0Jo5CdgLgSYS7QYmBVVUjduXdoeBkc4NFV4aSRTi+Rodkiy9ht7ZYEwF+s09S43Z1Y+ujUkA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript" scr="particles.js"></script>
+    <script type="text/javascript" scr="app.js"></script>
+    <title>krypton</title>
+    <link rel="icon" href="https://krypton.cssninja.io/img/logo/krypton-gradient.svg" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            // Get all "navbar-burger" elements
+            var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any nav burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(function ($el) {
+                    $el.addEventListener('click', function () {
+
+                        // Get the target from the "data-target" attribute
+                        var target = $el.dataset.target;
+                        var $target = document.getElementById(target);
+
+                        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                        $el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+        });
+    </script>
+
+    <!--start navbar-->
+    <nav class="navbar is-fixed-top ">
+        <div class="container">
+            <div class="navbar-brand is-white">
+                <a class="navbar-item">
+                    <img class="img-nav" src="https://krypton.cssninja.io/img/logo/krypton-gradient.svg">
+                    <span class="navbar-item">krypton</span>
+                </a>
+                <div class="navbar-burger burger" data-target="navMenubd-example">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+            </div>
+            <div id="navMenubd-example" class="navbar-menu">
+                <div class="navbar-end has-text-centered-mobile">
+                    <a class="navbar-item a-item ">Token</a>
+                    <a class="navbar-item a-item"> Ico </a>
+                    <a class="navbar-item a-item">Roadmap</a>
+                    <a class="navbar-item a-item" href="index.html"> Media</a>
+                    <a class="navbar-item a-item"><i class="fa-brands fa-telegram"
+                            style="font-size:20px; padding-right: 6px;"> </i> Telegram</a>
+                    <div class="navbar-item ">
+                        <div class="buttons has-text-centered-mobile ">
+                            <a class="button button-nav  ">
+                                <strong class="but-rig">Rigister</strong>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--end navbar-->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-body">
+                <div class="columns is-centered is-vcentered has-text-centered-mobile mt-2 py-4">
+                    <div class="column is-5-desktop is-offset-1 ">
+                        <hr class="hr-media"
+                            style="width: 90px; height: 4px;  border-radius: 410px; margin-bottom: 10px">
+                        <h1 class="title mb-5 is-white is-size-2 has-text-weight-bold ">News & Media</h1>
+                        <div class="subtitlee is-5 mt-3 is-white">Cryptocurrency brought to the next level. Join our ICO
+                            for supercharged rates.</div>
+
+                    </div>
+                    <div class="column is-5-desktop ">
+                        <img class="img-hero" src="https://krypton.cssninja.io/img/illustrations/media.svg"
+                            width="1000px;" height="500px;">
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section class="hero">
+        <div class="container mt-6 ">
+            <div class="content-wrapper is-large ">
+                <div class="columns">
+
+                    <div class="column is-8 is-offset-1">
+                        <!-- Post -->
+                        <div class="blog-post">
+                            <a href="#">
+
+                                <div class="featured-image">
+                                    <img src="https://krypton.cssninja.io/img/media/post4.svg" alt="">
+                                </div>
+                                <!-- Content -->
+                                <div class="content">
+                                    <div class="post-title has-text-white">
+                                        Blockchain for dummies
+                                        <span class="blog-date">27.05.2021</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır
+                                        metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının
+                                        bir hurufat numune kitabı...
+                                    </p>
+                                    <!-- Meta -->
+                                    <div class="post-meta">
+                                        <div class="author-block is-flex">
+                                            <div class="image is-32x32">
+                                                <img class="images" src="https://krypton.cssninja.io/img/team/glenn.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="author-name has-text-white">by John Cambell</div>
+
+                                                <div>
+                                                    <span>
+                                                        <small>in</small><span class="auther"> Featured</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="stats-block">
+                                            <div class="comments">
+                                                <i data-feather="message-circle"></i>
+                                                <span>3</span>
+                                            </div>
+                                            <div class="likes">
+                                                <i data-feather="heart"></i>
+                                                <span>9</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="blog-post box-e">
+                            <a href="#">
+                                <!-- Featured image -->
+                                <div class="featured-image">
+                                    <img src="https://krypton.cssninja.io/img/media/post1.svg" alt="">
+                                </div>
+                                <!-- Content -->
+                                <div class="content">
+                                    <div class="post-title has-text-white">
+                                        The Krypton chain algorythm
+                                        <span class="blog-date has-text-white">15.04.2021</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır
+                                        metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının
+                                        bir hurufat numune kitabı...
+                                    </p>
+                                    <!-- Meta -->
+                                    <div class="post-meta">
+                                        <div class="author-block is-flex">
+                                            <div class="image is-32x32">
+                                                <img class="images"
+                                                    src="https://krypton.cssninja.io/img/team/joshua.jpg" alt="">
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="author-name has-text-weight-bold has-text-white ">by Joshua
+                                                    Stevens</div>
+
+                                                <div>
+                                                    <span>
+                                                        <small>in</small><span class="auther"> Featured</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="stats-block">
+                                            <div class="comments">
+                                                <i data-feather="message-circle"></i>
+                                                <span>7</span>
+                                            </div>
+                                            <div class="likes">
+                                                <i data-feather="heart"></i>
+                                                <span>29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Post -->
+                        <div class="blog-post box-e">
+                            <a href="#">
+                                <!-- Featured image -->
+                                <div class="featured-image">
+                                    <img src="https://krypton.cssninja.io/img/media/post5.svg" alt="">
+                                </div>
+                                <!-- Content -->
+                                <div class="content">
+                                    <div class="post-title has-text-white">
+                                        The Krypton chain algorythm
+                                        <span class="blog-date has-text-white">15.04.2021</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır
+                                        metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının
+                                        bir hurufat numune kitabı...
+                                    </p>
+                                    <!-- Meta -->
+                                    <div class="post-meta">
+                                        <div class="author-block is-flex">
+                                            <div class="image is-32x32">
+                                                <img class="images" src="https://krypton.cssninja.io/img/team/helen.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="author-name has-text-weight-bold has-text-white ">by Joshua
+                                                    Stevens</div>
+
+                                                <div>
+                                                    <span>
+                                                        <small>in</small><span class="auther"> Featured</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="stats-block">
+                                            <div class="comments">
+                                                <i data-feather="message-circle"></i>
+                                                <span>7</span>
+                                            </div>
+                                            <div class="likes">
+                                                <i data-feather="heart"></i>
+                                                <span>29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Post -->
+                        <div class="blog-post box-e">
+                            <a href="#">
+                               
+                                <div class="featured-image">
+                                    <img src="https://krypton.cssninja.io/img/media/post2.svg" alt="">
+                                </div>
+                                <!-- Content -->
+                                <div class="content">
+                                    <div class="post-title has-text-white">
+                                        The Krypton chain algorythm
+                                        <span class="blog-date has-text-white">15.04.2021</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır
+                                        metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının
+                                        bir hurufat numune kitabı...
+                                    </p>
+                                    <!-- Meta -->
+                                    <div class="post-meta">
+                                        <div class="author-block is-flex ">
+                                            <div class="image is-32x32">
+                                                <img class="images" is-flex
+                                                    src="https://krypton.cssninja.io/img/team/joshua.jpg" alt="">
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="author-name has-text-weight-bold has-text-white ">by Joshua
+                                                    Stevens</div>
+                                                <div>
+                                                    <span>
+                                                        <small>in</small>
+                                                        <span class="auther">Featured</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="stats-block">
+                                            <div class="comments">
+                                                <i data-feather="message-circle"></i>
+                                                <span>7</span>
+                                            </div>
+                                            <div class="likes">
+                                                <i data-feather="heart"></i>
+                                                <span>29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="blog-post">
+                            <a href="#">
+                                <!-- Featured image -->
+                                <div class="featured-image">
+                                    <img src="https://krypton.cssninja.io/img/media/post3.svg" alt="">
+                                </div>
+                                <!-- Content -->
+                                <div class="content">
+
+                                    <div class="post-title has-text-white">
+                                        What is Crypto mining ?
+                                        <span class="blog-date has-text-white">02.04.2021</span>
+                                    </div>
+                                    <p>
+                                        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır
+                                        metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının
+                                        bir hurufat numune kitabı...
+                                    </p>
+                                    <!-- Meta -->
+                                    <div class="post-meta">
+                                        <div class="author-block is-flex">
+                                            <div class="image is-32x32">
+                                                <img class="images"
+                                                    src="https://krypton.cssninja.io/img/team/sandra.jpg" alt="">
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="author-name has-text-white">by Sandra Bernard</div>
+
+                                                <div>
+                                                    <span>
+                                                        <small>in</small><span class="auther"> Featured</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="stats-block">
+                                            <div class="comments">
+                                                <i data-feather="message-circle"></i>
+                                                <span>31</span>
+                                            </div>
+                                            <div class="likes">
+                                                <i data-feather="heart"></i>
+                                                <span>48</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="cta-wrapper has-text-centered mb-6">
+                            <a href="#" class="button k-button raised has-gradient is-fat is-bold">
+                                <span class="text">LOAD MORE</span>
+                                <span class="front-gradient"></span>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <!-- /Media section -->
+                    <div class="column search-cl ">
+                        <div class="inputBox mt-4 mt-6 mb-6">
+                            <input class=" mt-4" type="text" required="required">
+                            <span class="search">search</span>
+                            <i class=" mt-4 hr-search"></i>
+                        </div>
+                        <div class="categories-widget is-5  is-centered ">
+                            <div class="widget-title title-tag is-bold mb-5">Categories</div>
+                            <ul class="Categories-list">
+
+                                <li>
+                                    <a class="is-active" href="#">
+                                        <span class="tit-allpost">All post</span>
+                                        <span class="tag">53</span>
+                                    </a>
+                                </li>
+                                <li class="pt-4 is-size-6 culm-2">
+                                    <a href="#">Blockchai</a><br>
+                                </li>
+                                <li class="pt-4 is-size-6 culm-2">
+                                    <a href="#">Crypto Market</a>
+                                </li>
+                                <li class="pt-4 is-size-6 culm-2">
+                                    <a href="#">Cryptomining</a>
+                                </li>
+                                <li class="pt-4 is-size-6 culm-2">
+                                    <a href="#">Featured</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tag-widgh">
+                            <h4 class="widget-title title-tag is-size-5 is-light pt-4">TAGS</h4>
+                            <div class="tags pt-4">
+                                <span class="tag">Bitcoin</span>
+                                <span class="tag">Cryptocurrency</span>
+                                <span class="tag">Blockchain</span>
+                                <span class="tag">Ethereum</span>
+                            </div>
+                        </div>
+                        <h4 class="widget-title title-tag is-size-5  is-light pt-4">Archives</h4>
+                        <div class="select-dropdown">
+                            <select>
+                                <option value="Option 1">Select Month</option>
+                                <option value="Option 2">January</option>
+                                <option value="Option 3">February</option>
+                                <option value="Option 3">March</option>
+                                <option value="Option 3">April</option>
+                                <option value="Option 3">May</option>
+                                <option value="Option 3">June</option>
+                                <option value="Option 3">July</option>
+                                <option value="Option 3">August</option>
+                                <option value="Option 3">September</option>
+                                <option value="Option 3">October</option>
+                                <option value="Option 3">November</option>
+                                <option value="Option 3">December</option>
+
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="hero is-medium">
+
+        <footer class="krypton-footer">
+            <div class="container">
+                <!-- Logo -->
+                <div class="footer-logo">
+                    <a href="#">
+                        <img class="rotating" src="https://krypton.cssninja.io/img/logo/krypton-gradient.svg" alt="">
+                        <div class="brand-name">Krypton</div>
+                        <div class="brand-subtitle">Blockchain brought to another level</div>
+                    </a>
+                </div>
+
+                <!-- Columns -->
+                <div class="columns footer-columns is-vcentered">
+                    <div class="column is-4">
+                       
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">Token</a>
+                                <i class="i-one"></i>
+                            </li>
+                            <li>
+                                <a href="#">ICO</a>
+                                <i class="i-tow"></i>
+                            </li>
+
+                            <li>
+                                <a href="#">Roadmap</a>
+                                <i class="i-three"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="subscribe-block">
+                            <form>
+
+                                <div class="control">
+
+                                    <input class="krypton-subscribe-input" type="email" name="email" placeholder="">
+                                    <button class="subscribe-button">
+                                        <span>Subscribe</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Links group -->
+                    <div class="column is-4">
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#">Register</a>
+                                <i class="i-four"></i>
+                            </li>
+
+                            <li>
+                                <a href="#">Media</a>
+                                <i class="i-five"></i>
+                            </li>
+
+                            <li>
+                                <a href="#">Telegram</a>
+                                <i class="i-six"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="k-copyright">© 2018-2021 | Krypton. All Rights Reserved</p>
+                <br>
+
+                <p class="coded-by has-text-white">Designed and Coded by <a href="https://cssninja.io"
+                        target="_blank">Css Ninja</a></p>
+            </div>
+
+
+
+        </footer>
+        </div>
+    </section>
